@@ -2,8 +2,8 @@
  * Enter the WiFi network you want to connect to, for getting the current time and other information.
  * If for some reason your WiFi doesn't have a password, you can comment that out.
  */
-#define WIFI_NAME "your wifi name here"
-#define WIFI_PASS "your wifi password here"
+#define WIFI_NAME "RockingB2"
+#define WIFI_PASS "Primevil2@002@"
 #define HOSTNAME "portal_calendar"
 
 /**
@@ -38,7 +38,7 @@
  * You can find a list of timezone names here:
  * https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
  */
-#define TIME_ZONE "America/Chicago"
+#define TIME_ZONE "America/New_York"
 
 /**
  * The full POSIX specification for your timezone. If TIME_ZONE is set, this will only serve as a backup to that.
@@ -57,7 +57,7 @@
  * This is REQUIRED to use the weather feature. Create a free account with them and get your API key here:
  * https://home.openweathermap.org/api_keys
  */
-#define OPENWEATHERMAP_API_KEY "your api key here"
+#define OPENWEATHERMAP_API_KEY "9ed0c6134b92357c2dabc321aa270de6"
 
 /**
  * 1: Show a 5-day weather forecast
@@ -87,7 +87,7 @@
 /**
  * The location to get weather information for. Can also be a zip code for US locations.
  */
-#define WEATHER_LOCATION "Oklahoma City, Oklahoma, US"
+#define WEATHER_LOCATION "Bunnlevel, North Carolina, US"
 
 /**
  * The latitude and longitude for weather information. Optional. Overrides WEATHER_LOCATION if set.
